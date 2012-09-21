@@ -68,7 +68,7 @@ public class Screensaver extends Dream {
 
         setContentView(R.layout.main);
 
-        lightsOut(); // lights out, fullscreen
+        setFullscreen(true);
 
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         final String url = prefs.getString("url", "file:///android_asset/default.html");
