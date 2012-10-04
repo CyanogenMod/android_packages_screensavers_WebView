@@ -46,11 +46,6 @@ import android.preference.PreferenceManager;
 import android.widget.TextView;
 
 public class Screensaver extends Dream {
-    @Override
-    public void onStart() {
-        super.onStart();
-    }
-
     private class LinkLauncher extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
