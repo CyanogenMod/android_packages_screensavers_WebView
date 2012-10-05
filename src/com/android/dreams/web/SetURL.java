@@ -16,7 +16,6 @@
 
 package com.android.dreams.web;
 
-import android.service.dreams.Dream;
 import android.util.Log;
 import android.content.SharedPreferences.Editor;
 import android.content.SharedPreferences;

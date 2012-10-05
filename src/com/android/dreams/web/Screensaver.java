@@ -31,7 +31,7 @@ import android.net.Uri;
 import android.os.BatteryManager;
 import android.os.Handler;
 import android.provider.Settings;
-import android.service.dreams.Dream;
+import android.service.dreams.DreamService;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -45,7 +45,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.widget.TextView;
 
-public class Screensaver extends Dream {
+public class Screensaver extends DreamService {
     private class LinkLauncher extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
